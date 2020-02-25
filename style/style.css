@@ -1,0 +1,199 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-image: url(../image/cover.png);
+}
+.wrapper{
+	width: 80%;
+	background-color: transparent;
+	/*display: flex;*/
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	margin: 0 auto;
+	text-decoration: underline  red;
+	
+
+}
+.logo{
+	display: inline-block;
+	/*padding: 20px;*/
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.menu{
+	float: right;
+}
+.menu ul {
+	overflow: hidden;
+	margin: 33px 0px;
+}
+.menu ul li{
+	float: right;
+	list-style: none;
+	margin-left:35px; 
+
+	
+
+
+}
+.menu ul li a {
+	
+	text-decoration: none;
+	color: #cccdd3;
+
+	
+
+}
+
+/*banner*/
+
+.banner{
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	padding:  100px ;
+
+
+}
+.banner h1{
+	color: #cccdd3;
+	font-size: 80px;
+	font-weight: lighter;
+	font-family: serif;
+}
+.banner h6{
+	color: #cccdd3;
+	font-size: 16px;
+	font-weight: lighter;
+	font-family: serif;
+	width: 70%;
+	margin: 0 auto;
+	padding: 15px 0px;
+}
+.banner .b_batton{
+	padding: 15px 39px;
+	color: white;
+	background-color: #e84545;
+	margin: 55px 0px;
+	border: none;
+	border-radius: 3px;
+}
+
+
+
+
+/*banner end*/
+
+
+/*work*/
+.wrapper_work{
+	width: 60%;
+overflow: hidden;
+margin: 0 auto;
+/*border: 1px solid red;*/
+text-align: center;
+
+}
+
+.work-1{
+	width: 22%;
+	display: inline-block;
+	float: right;
+
+	margin:30px 71px 72px 0px ;
+	/*border: 1px solid red;*/
+
+}
+
+
+/*work start*/
+
+/*PIc start */
+.pic_wrap{
+	overflow: hidden;
+	width: 100%;
+}
+
+
+.pic_item{
+	width:24.7% ;
+	padding-left: 4px;
+	float: right;
+}
+
+.pic_item img{
+	width:100% ;
+	
+}
+
+
+/*PIc end */
+/*team*/
+.wrapper_team{
+	width: 80%;
+	margin: 30px 0px;  
+	
+	
+
+}
+.team-1{
+	width: 19%;
+	float: right;
+	padding:10px;
+	font-family: ;
+}
+
+.team-1 h3{
+	font-size: 22 pt;
+	color: #2d3033;
+
+}
+
+.team-1 h6{
+		color: #e84545;
+		font-size: 13 pt;
+		margin: 10px 0px;
+		text-transform: uppercase;
+
+
+}
+.team-1 p{
+	color: #6c7279;
+	font-size: 14 pt;
+	margin: 4px 0px;
+	
+
+}
+
+
+.team-1 .team_img{
+	width: 100%;
+	/*display: inline-block;*/
+
+}
+
+/*clint_slide*/
+
+.clint_wrap{
+	/*overflow: hidden;*/
+	width: 100%;
+
+}
+
+
+.clint_container{
+	width:50% ;
+	
+	float: left;
+}
+
+.clint_container img{
+	width:100% ;
+	
+}
+/*clint_slide end*/
+
